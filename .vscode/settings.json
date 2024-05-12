@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "opencensus"
+    ],
+    "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.formatOnType": true,
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    // "editor.wordBasedSuggestions": "off"
+  },
+}
