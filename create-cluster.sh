@@ -34,7 +34,7 @@ az aks create \
 # This command will is a substitute for "--enable-addons monitoring" option in the "az aks create"
 # Use the log analytics workspace - Resource ID
 # For Cloud Lab users, go to the existing Log Analytics workspace --> Properties --> Resource ID. Copy it and use in the command below.
-az aks enable-addons -a monitoring -n $clusterName -g $resourceGroup --workspace-resource-id "/subscriptions/ddf7c6af-c061-48d1-ac2a-262b48bf5345/resourcegroups/defaultresourcegroup-sea/providers/microsoft.operationalinsights/workspaces/DefaultWorkspace-ddf7c6af-c061-48d1-ac2a-262b48bf5345-SEA"
+az aks enable-addons -a monitoring -n $clusterName -g $resourceGroup --workspace-resource-id "/subscriptions/17fa567b-e6eb-4e3c-a2e1-c445717eb2aa/resourcegroups/defaultresourcegroup-eus/providers/microsoft.operationalinsights/workspaces/DefaultWorkspace-17fa567b-e6eb-4e3c-a2e1-c445717eb2aa-EUS"
 
 echo "AKS cluster created: $clusterName"
 
